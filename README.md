@@ -19,4 +19,9 @@ the correctness of this algorithm are also present in this file. It can be run o
 follows:
 ```bash
 $ python matching_algs.py
-```
+
+## Audio to Phoneme Model
+Use the 'audio_to_phoneme.py' file to train a feature extractor, tokenizer, and model from scratch for converting wav audio files into phoneme sequences.
+Make sure to have python version 3.8.7 installed and then run the following two shell commands:
+$ pip install datasets transformers jiwer soundfile torch librosa dataclasses typing
+$ python audio_to_phoneme.py
